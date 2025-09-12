@@ -10,7 +10,7 @@ int par_impar(int numero){
 
 int main(void){
 
-    int num = 9;
+    int num = 10;
 
     if(par_impar(num))
         printf("O numero %d\n é par", num);
