@@ -2,19 +2,22 @@
 
 int exponencial(int numero){
 
-    int quadrado = numero * numero;
+    int cubo = numero * numero * numero;
 
-    return quadrado;
+    return cubo;
 }
+
+
 
 int main(void){
 
     int num = 0;
-    printf("Digite o numero que voce deseja calcular o quadrado: ");
+    printf("Digite o numero que voce deseja calcular o cubo: ");
     scanf("%d", &num);
     printf("\n");
 
     int resultado = exponencial(num);
+
     printf("%d\n", resultado);
 
     return 0;
