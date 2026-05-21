@@ -1,1 +1,1 @@
-Repositorio destinado a exercicios feitos na linguagem C
+Repositorio destinado a exercicios
